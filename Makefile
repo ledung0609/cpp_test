@@ -5,7 +5,7 @@ CFLAGS	=
 # (3)実行ファイル名
 TARGET  = CodeQL_test
 # (4)コンパイル対象のソースコード
-SRCS    = test.cpp
+SRCS    = test.cpp cwe_611.cpp
 # (5)オブジェクトファイル名
 OBJS    = $(SRCS:.cpp=.o)
 
