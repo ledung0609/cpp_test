@@ -22,9 +22,6 @@ int main(int argc, char* argv[]) {
   		   // not subsequently used and goes out of scope
   	y = 0; // Non-compliant - Variable defined, but y is
            // not subsequently used and goes out of scope
-
-
-
 	printf("x is %d",x);
     return result;
 }
