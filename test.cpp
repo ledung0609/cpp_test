@@ -24,8 +24,8 @@ int main(int argc, char* argv[]) {
            // not subsequently used and goes out of scope
 
 
-		   
+
 	printf("x is %d",x);
-  return result;
+    return result;
 }
 
